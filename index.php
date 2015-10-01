@@ -1,9 +1,7 @@
 <?php
 
-if ($_GET['lang']=="ja"){
-	$lang = "ja_JP.UTF-8";
-	$domain = "messages";
-}
+$lang = "ja_JP.UTF-8";
+$domain = "messages";
 
 setlocale(LC_ALL, $lang);
 bindtextdomain($domain, "./locale/");
