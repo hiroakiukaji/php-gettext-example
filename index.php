@@ -1,9 +1,9 @@
 <?php
 // I18N support information here
-$language = 'ja_JP.UTF-8';
+$lang = 'ja_JP.UTF-8';
 
 putenv("LC_ALL=$lang");
-setlocale(LC_ALL, $language);
+setlocale(LC_ALL, $lang);
 
 // Set the text domain as 'messages'
 $domain = 'messages';
